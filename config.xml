@@ -7,7 +7,7 @@
         version   = "1.0.0">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>IbizaParty.Life Events & Lists</name>
+    <name>Ibiza Party Life - Events Lists</name>
 
     <description>
         IbizaParty.Life is the most comprehensive list of events going in Ibiza, and can also be used to request guestlists and tickets at the hottest parties on the island.  Find the next party you need to be at with ease. The phone app works when connected to the internet and also in offline mode.
@@ -36,17 +36,17 @@
     <!-- Have to use gradle for pushwoosh plugin -->
     <preference name="android-build-tool" value="gradle" />
 
-    <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+    <!--<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />-->
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-    <gap:plugin name="cordova-plugin-camera" source="npm"  />
+    <!-- <gap:plugin name="cordova-plugin-camera" source="npm"  />
     <gap:plugin name="cordova-plugin-device" source="npm" />
     <gap:plugin name="cordova-plugin-contacts" source="npm" />
     <gap:plugin name="cordova-plugin-dialogs" source="npm" />
     <gap:plugin name="cordova-plugin-file" source="npm" />
-    <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
+    <!-- <gap:plugin name="cordova-plugin-file-transfer" source="npm" />-->
     <gap:plugin name="cordova-plugin-geolocation" source="npm" />
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
-    <gap:plugin name="cordova-plugin-media-capture" source="npm" />
+    <!--<gap:plugin name="cordova-plugin-media-capture" source="npm" />-->
     <gap:plugin name="cordova-plugin-network-information" source="npm" />
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
     <!-- <gap:plugin name="com.telerik.plugins.nativepagetransitions" source="npm" /> -->
