@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My App (offline)</title>
+
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" id="appp-style-css" href="theme/style.css" type="text/css" media="all">
+		<link rel="stylesheet" id="appp-style-css" href="theme/bootstrap4.css" type="text/css" media="all">
+		<link rel="stylesheet" id="appp-style-css" href="theme/font-awesome.css" type="text/css" media="all">
+
+		<script type="text/javascript" src="../lib/jquery-2.1.4.min.js"></script>
+
+		<script type="text/javascript" src="../init.js"></script>
+		<script type="text/javascript" src="../connection.js"></script>
+	</head>
+
+	<body onload="onLoad()">
+
+	<div id="body-container">
+
+		<div id="menu-content" class="menu-content pane menu-animated">
+
+		<header class="bar bar-header">
+
+		<h1 class="title site-title">IPL Offline Mode</h1>
+
+		</header>
+
+		<div id="main" class="site-main" role="main">
+
+			<div id="content" class="site-content padding">
+
+				<!--
+
+				Start your content here
+
+				-->
+
+				<h2 class="text-center">Offline Calendar</h2>
+				<h3 class="text-center">Summer 2016</h3>
+				<a href="may.html"><div class="btn btn-primary btn-lg btn-block">May 2016</div></a>
+				<a href="june.html"><div class="btn btn-primary btn-lg btn-block">June 2016</div></a>
+				<a href="july.html"><div class="btn btn-primary btn-lg btn-block">July 2016</div></a>
+				<a href="august.html"><div class="btn btn-primary btn-lg btn-block">August 2016</div></a>
+				<a href="september.html"><div class="btn btn-primary btn-lg btn-block">September 2016</a></div></a>
+				<a href="october.html"><div class="btn btn-primary btn-lg btn-block">October 2016</div></a>
+
+			</br>
+
+			<p class="text-center">Ibiza Party Life 2016 </p>
+
+			<!-- 
+
+			End your content here
+
+			-->
+
+		</div><!-- #content -->
+
+        <div id="online-footer">
+            <div id="online-msg">Connection has been restored.</div>
+            <button class="button button-positive" id="go-online">Go Online</button>
+            <button class="button button-positive" id="close-online">Close</button>
+        </div>
+	</div><!-- #main -->
+
+	<script type="text/javascript" src="../cordova.js"></script>
+</body>
+</html>
