@@ -4,10 +4,10 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "life.ibizaparty.app"
-        version   = "1.0.0">
+        version   = "1.0.1">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>Ibiza Party Life - Events Lists</name>
+    <name>Ibiza Party Life Events Lists</name>
 
     <description>
         IbizaParty.Life is the most comprehensive list of events going in Ibiza, and can also be used to request guestlists and tickets at the hottest parties on the island.  Find the next party you need to be at with ease. The phone app works when connected to the internet and also in offline mode.
